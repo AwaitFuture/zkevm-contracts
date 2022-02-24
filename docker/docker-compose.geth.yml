@@ -13,6 +13,8 @@ services:
       - --http
       - --http.addr
       - "0.0.0.0"
+      - --http.api
+      - "personal,eth,net,web3"
       - --dev
       - --dev.period
       - $DEV_PERIOD
